@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = CourseApp.Identity
+build_property.ProjectDir = C:\Users\omerc\RiderProjects\CourseAppMicroservices\IdentityServer\CourseApp.Identity\
