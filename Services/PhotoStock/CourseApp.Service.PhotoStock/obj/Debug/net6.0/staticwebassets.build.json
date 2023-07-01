@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "xfpFMYzF/1uLpn4heoSZZ1b3QS1rc5Vh2WF8EdE/cms=",
+  "Source": "CourseApp.Service.PhotoStock",
+  "BasePath": "_content/CourseApp.Service.PhotoStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CourseApp.Service.PhotoStock\\wwwroot",
+      "Source": "CourseApp.Service.PhotoStock",
+      "ContentRoot": "C:\\Users\\omerc\\RiderProjects\\CourseAppMicroservices\\Services\\PhotoStock\\CourseApp.Service.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/CourseApp.Service.PhotoStock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

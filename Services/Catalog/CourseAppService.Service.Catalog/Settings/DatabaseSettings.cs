@@ -1,9 +1,0 @@
-﻿namespace CourseAppService.Service.Catalog.Settings;
-
-public class DatabaseSettings :IDatabaseSettings
-{
-    public string CourseCollectionName { get; set; }
-    public string CategoryCollectionName { get; set; }
-    public string Connection { get; set; }
-    public string DatabaseName { get; set; }
-}

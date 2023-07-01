@@ -4,7 +4,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{49
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{F6646A93-BB3A-4845-BD6A-11C9D08CE967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseAppService.Service.Catalog", "Services\Catalog\CourseAppService.Service.Catalog\CourseAppService.Service.Catalog.csproj", "{5463AA78-1A8F-4AA4-9616-54077BC6BB6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseApp.Service.Catalog", "Services\Catalog\CourseApp.Service.Catalog\CourseApp.Service.Catalog.csproj", "{5463AA78-1A8F-4AA4-9616-54077BC6BB6B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2657A4B0-35B7-44BD-A8D7-C9063C2F11F7}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseApp.Identity", "IdentityServer\CourseApp.Identity\CourseApp.Identity.csproj", "{1AF25D53-F152-450C-A517-898D20448D46}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{5123CD8D-DE92-4EE1-8F5D-87D22463E62E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseApp.Service.PhotoStock", "Services\PhotoStock\CourseApp.Service.PhotoStock\CourseApp.Service.PhotoStock.csproj", "{6CFD6E29-0564-4E46-9651-B13B6F7AD070}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,8 @@ Global
 		{5463AA78-1A8F-4AA4-9616-54077BC6BB6B} = {F6646A93-BB3A-4845-BD6A-11C9D08CE967}
 		{9AC92FAB-9CFD-4BD3-871F-6923A2F62B0A} = {AF663F65-07B9-498A-A7B4-5DB3A5EA2CB0}
 		{1AF25D53-F152-450C-A517-898D20448D46} = {C8432896-42F1-4BE7-98DB-FD85FA87DA61}
+		{5123CD8D-DE92-4EE1-8F5D-87D22463E62E} = {49567D76-F101-4C8E-B410-6716F58C0AD4}
+		{6CFD6E29-0564-4E46-9651-B13B6F7AD070} = {5123CD8D-DE92-4EE1-8F5D-87D22463E62E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5463AA78-1A8F-4AA4-9616-54077BC6BB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -43,5 +49,9 @@ Global
 		{1AF25D53-F152-450C-A517-898D20448D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AF25D53-F152-450C-A517-898D20448D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AF25D53-F152-450C-A517-898D20448D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFD6E29-0564-4E46-9651-B13B6F7AD070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFD6E29-0564-4E46-9651-B13B6F7AD070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFD6E29-0564-4E46-9651-B13B6F7AD070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFD6E29-0564-4E46-9651-B13B6F7AD070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
