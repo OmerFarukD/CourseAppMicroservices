@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xfpFMYzF/1uLpn4heoSZZ1b3QS1rc5Vh2WF8EdE/cms=",
+  "Hash": "/LalPTpc1ZhsOd4+0qnjeJZG2jpcbxg5VuToDjHdDlI=",
   "Source": "CourseApp.Service.PhotoStock",
   "BasePath": "_content/CourseApp.Service.PhotoStock",
   "Mode": "Default",
@@ -15,5 +15,23 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\omerc\\RiderProjects\\CourseAppMicroservices\\Services\\PhotoStock\\CourseApp.Service.PhotoStock\\wwwroot\\Photos\\deneme.png",
+      "SourceId": "CourseApp.Service.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omerc\\RiderProjects\\CourseAppMicroservices\\Services\\PhotoStock\\CourseApp.Service.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/CourseApp.Service.PhotoStock",
+      "RelativePath": "Photos/deneme.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Photos\\deneme.png"
+    }
+  ]
 }

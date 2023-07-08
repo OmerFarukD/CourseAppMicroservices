@@ -16,6 +16,7 @@ namespace CourseApp.Identity
         {
             new ApiResource("resource_catalog") { Scopes = { "catalog_fullpermision" } },
             new ApiResource("resource_photo_stock") { Scopes = { "photo_stock_fullpermision" } },
+            new ApiResource("resource_basket") { Scopes = { "basket_full_permission" } },
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -37,6 +38,7 @@ namespace CourseApp.Identity
             {
                 new ApiScope("catalog_fullpermision","Catalog Api için full erişim."),
                 new ApiScope("photo_stock_fullpermision","Photo Stock Api için full erişim."),
+                new ApiScope("basket_full_permission","Basket Api için full erişim."),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -60,6 +62,7 @@ namespace CourseApp.Identity
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     AllowedScopes =
                     {
+                        "basket_full_permission",
                         IdentityServerConstants.StandardScopes.Email,
                         IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,

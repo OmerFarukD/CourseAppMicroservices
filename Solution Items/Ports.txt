@@ -1,5 +1,7 @@
 Services=>
- * Catalog Api
+ *Catalog Api
  http://localhost:5011/swagger/index.html
  *PhotoStock Api
  http://localhost:5012/swagger/index.html
+ *Basket Api
+ http://localhost:5013/swagger/index.html
